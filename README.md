@@ -1,7 +1,4 @@
-# Lab 4 – LibraryService Unit Tests
-
-Unit tests for `LibraryService.checkoutResource`, written with **JUnit 5** and **Mockito**. The `ResourceRepository` and `EmailProvider` dependencies are mocked, so no database or email server is needed.
-
+# Lab 4
 ## Project Structure
 
 ```
