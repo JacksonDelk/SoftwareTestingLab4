@@ -29,7 +29,7 @@ mvn -version
 
 ### Command line
 
-From the project root (the folder containing `pom.xml`):
+From the project root:
 
 ```bash
 mvn test
