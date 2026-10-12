@@ -51,15 +51,3 @@ Tests run: 7, Failures: 0, Errors: 0, Skipped: 0
 2. Wait for Maven to finish importing dependencies.
 3. Open `src/test/java/lab4/LibraryServiceTest.java`.
 4. Click the green run icon next to the class name, or right-click the file and choose **Run 'LibraryServiceTest'**.
-
-## Test Cases
-
-| ID | Scenario | Expected Result |
-|----|----------|-----------------|
-| T1 | `resourceId` is `null` | Returns `false`; no calls to either mock |
-| T2 | Resource is unavailable | Returns `false` |
-| T3 | `updateStatus` returns `false` | Throws `DatabaseFailureException` |
-| T4 | `updateStatus` throws `DatabaseFailureException` | Exception propagates |
-| T5 | `sendEmail` returns `false` | Throws `EmailFailureException` |
-| T6 | `sendEmail` throws `EmailFailureException` | Exception propagates |
-| T7 | Successful checkout | Returns `true` and the email is sent |
