@@ -45,12 +45,6 @@ Tests run: 7, Failures: 0, Errors: 0, Skipped: 0
 [INFO] BUILD SUCCESS
 ```
 
-To run a single test (methods are named `T1`–`T7`):
-
-```bash
-mvn test -Dtest=LibraryServiceTest#T7
-```
-
 ### IntelliJ IDEA
 
 1. **File → Open** and select the project folder (open it as a Maven project if asked).
